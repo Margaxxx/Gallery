@@ -1,5 +1,6 @@
+
 .all {
-    width:76%;
+    width:100%;
     min-height:1000px;
     margin:0px auto;
     font-family:"Raleway";
@@ -80,7 +81,7 @@
     flex-direction:column;
 }
 .content1 {
-    width:80%;
+    width:100%;
     margin:auto;
     display:flex;
     flex-wrap:wrap;
@@ -161,12 +162,30 @@ button {
     color:#252525;
     text-decoration:none;
 }
-@media (max-width:570px) {
+@media (max-width:540px) {
     .img {
          justify-content:center;
+
     }
+    .dress img{
+        width:50%;
+    }
+    .names{
+        
+        width:35%;
+    }
+   
     .footer {
         justify-content:center;
         align-items:center;
    }
 }
+
+/*
+
+ .names{
+        
+        width:50%;
+    }
+
+    */
